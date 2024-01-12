@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Tektur', sans-serif;
+  background: #061422;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.container {
+  max-width: 80%;
+  width: 500px;
+  height: 500px;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 10px;
+}
+.container h1 {
+  color: #1a2b3c;
+  text-shadow: #fffca8 2px 2px 0px, #9c9c9c 4px 4px 0px;
+}
+.container .board {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.container .board p.showTips {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.container .board p.showTips span {
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 7px;
+}
+.container .board p.showTips b {
+  color: red;
+  font-weight: bold;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  display: none;
+}
+button {
+  padding: 7px 25px;
+  outline: none;
+  border: 1px white solid;
+  background-color: #1a2b3c;
+  color: white;
+}
+span.mee{
+  color: #1a2b3c;
+  font-weight: 600;
+}
+span.mee a{
+  color:#fffca8;
+  text-decoration: none;
+}
